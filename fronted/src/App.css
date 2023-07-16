@@ -1,0 +1,143 @@
+.Container{
+  height: 400px;
+  width:1000px;
+  border:2px solid #ff0000;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+
+.content{
+  text-align: center;
+  color: black;
+}
+.update{
+  color:blue;
+  background-color:lightblue;
+  height: 600px;
+padding-top: 50px;
+
+}
+.updated{
+  color: blue;
+ 
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+/* Navbar */
+
+
+
+
+
+
+
+
+
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+}
+
+.add-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+/* registration */
+
+
+/* body {
+  background: linear-gradient(to bottom, #f1f1f1, #ffffff);
+  background-image: linear-gradient(45deg, #FFC107, #FF5722, #FF4081, #E040FB, #9C27B0, #673AB7, #3F51B5, #2196F3, #00BCD4, #4CAF50, #8BC34A, #CDDC39, #FFEB3B, #FFC107);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+} */
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.card{
+  max-width: 400px;
+  margin: 0 auto;
+  /* padding: 10px; */
+}
+
+.card h1 {
+  text-align: center;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* .card input {
+  padding: 10px;
+  margin-bottom: 20px;
+} */
+
+.card button {
+  padding: 10px 20px;
+}
+
+
+/* login */
+
+
+.login-card{
+  max-width: 400px;
+  margin: 0 auto;
+   padding: 10px; 
+   margin-top: 50px;
+}
+
+.login-card h1 {
+  text-align: center;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.registration{
+  color:#4caf50;
+  margin-left: 800px ;
+}
